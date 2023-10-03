@@ -88,7 +88,7 @@ a {
   right: 17%;
 }
 .footer-container {
-  margin-top: -60px;
+  margin-top: -10px;
   height: 150px;
   background-color: #032816;
 }
@@ -102,4 +102,37 @@ a {
 }
 .footer-headings a {
   color: white;
+}
+
+.home-logoimage {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home-openings {
+  position: relative;
+}
+.home-openings img {
+  width: 100%;
+}
+.opening-headings {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 120px;
+  width: 70%;
+  color: white;
+  text-align: center;
+}
+.opening-time {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  color: white;
+  font-size: 20px;
+  width: 70%;
+  text-align: center;
+  transform: translate(-50%, -50%);
 }

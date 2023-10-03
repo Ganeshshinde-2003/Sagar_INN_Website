@@ -2,9 +2,7 @@ import React from "react";
 import first from "../assets/home/brooke-lark-oaz0raysASk-unsplash 1.png";
 import sec from "../assets/home/Artboard 7@4x 1.png";
 import third from "../assets/home/yves-cedric-schulze-oaM9nFZmMYI-unsplash 1.png";
-import logo from "../assets/logo.png";
 import fourth from "../assets/home/Artboard 9@4x 1.png";
-import sixth from "../assets/home/IMG_6889 2.png";
 import "./style.css";
 import ImageSlider from "../components/ImageSlider";
 
@@ -64,21 +62,6 @@ const HomePage = () => {
         <img className="home-slider-image" src={fourth} alt="four" />
         <ImageSlider />
         <hr />
-      </div>
-      <div className="home-logoimage">
-        <img src={logo} alt="logo" />
-      </div>
-      <div className="home-openings">
-        <img src={sixth} alt="sixth" />
-        <p className="opening-headings">
-          WE ARE LOOKING FORWARD TO YOUR VISIT!
-        </p>
-        <p className="opening-time">
-          OPENING HOURS <br /> <br /> Monday : ClosedTuesday - Friday : 11:00
-          a.m. - 2:00 p.m., 5:30 p.m. - 11:30 p.m.
-          <br /> <br /> Saturday : 5:30 p.m. - 11:30 p.m.Sunday : 11:00 a.m. -
-          2:00 p.m., 5:30 p.m. - 10:00 p.m
-        </p>
       </div>
     </div>
   );
