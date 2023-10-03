@@ -66,7 +66,7 @@ const HomePage = () => {
         <hr />
       </div>
       <div className="home-logoimage">
-        <img src={logo} />
+        <img src={logo} alt="logo" />
       </div>
       <div className="home-openings">
         <img src={sixth} alt="sixth" />

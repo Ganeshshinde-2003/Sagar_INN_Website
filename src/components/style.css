@@ -88,6 +88,7 @@ a {
   right: 17%;
 }
 .footer-container {
+  margin-top: -60px;
   height: 150px;
   background-color: #032816;
 }
