@@ -6,7 +6,7 @@ import sec from "../assets/home/andrea-de-santis-DbMZgyFrycw-unsplash 1.png";
 const AboutUs = () => {
   return (
     <div className="about-container">
-      <div className="home-firstimage">
+      <div className="about-firstimage">
         <img src={first} alt="first" />
         <p>
           TRADITION UNITED WITH <br />

@@ -5,17 +5,19 @@
 }
 .home-firstimage {
   position: relative;
+  overflow: hidden;
   width: 100%;
 }
 .home-firstimage img {
   width: 100%;
 }
-.home-firstimage p {
-  width: 100%;
-  text-align: center;
+.home-firstimage-animator {
   position: absolute;
   top: 50%;
   left: 50%;
+}
+.home-firstimage p {
+  text-align: center;
   transform: translate(-50%, -50%);
   font-size: 120px;
   color: white;
@@ -187,6 +189,25 @@
   display: flex;
   gap: 200px;
   font-size: 20px;
+}
+.about-firstimage {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+.about-firstimage img {
+  width: 100%;
+}
+.about-firstimage p {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 120px;
+  color: white;
+  font-weight: bold;
 }
 .menu-items a {
   color: white;

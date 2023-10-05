@@ -1,15 +1,21 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./style.css";
 import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
 import sixth from "../assets/home/IMG_6889 2.png";
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 const Footer = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1500 });
+  }, []);
   return (
     <>
       <div className="home-logoimage">
-        <img src={logo} alt="logo" />
+        <img data-aos="zoom-in" src={logo} alt="logo" />
       </div>
-      <div className="home-openings">
+      <div className="home-openings" data-aos="fade-up">
         <img src={sixth} alt="sixth" />
         <p className="opening-headings">
           WE ARE LOOKING FORWARD TO YOUR VISIT!
