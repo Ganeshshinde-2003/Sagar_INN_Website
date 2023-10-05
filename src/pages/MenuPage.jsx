@@ -1,12 +1,21 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { IoIosArrowRoundForward } from "react-icons/io";
 import { Link } from "react-router-dom";
 import first from "../assets/home/brooke-lark-oaz0raysASk-unsplash 1.png";
 import "./style.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const MenuPage = () => {
+  useEffect(() => {
+    Aos.init({ duration: 3000 });
+  }, []);
   return (
-    <div className="menu-container">
+    <div
+      data-aos="fade-up"
+      data-aos-anchor-placement="top-bottom"
+      className="menu-container"
+    >
       <div className="menu-firstpart">
         <p className="menu-headings">WE WELCOME YOU.</p>
         <p className="menu-disc">
