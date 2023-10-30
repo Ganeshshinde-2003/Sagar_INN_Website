@@ -5,17 +5,19 @@
 }
 .home-firstimage {
   position: relative;
+  overflow: hidden;
   width: 100%;
 }
 .home-firstimage img {
   width: 100%;
 }
-.home-firstimage p {
-  width: 100%;
-  text-align: center;
+.home-firstimage-animator {
   position: absolute;
   top: 50%;
   left: 50%;
+}
+.home-firstimage p {
+  text-align: center;
   transform: translate(-50%, -50%);
   font-size: 120px;
   color: white;
@@ -223,6 +225,7 @@
 }
 .about-textpart {
   display: flex;
+  overflow: hidden;
   flex-direction: column;
   color: white;
   justify-content: space-between;
