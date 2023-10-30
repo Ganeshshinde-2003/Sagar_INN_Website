@@ -32,7 +32,7 @@ const AboutUs = () => {
           </Animator>
         </div>
         <div className="about-secpart">
-          <p className="about-headings" data-aos="fade-right">
+          <p className="about-headings" data-aos="fade-up">
             LONG TRADITION <br /> <span>AND NUMEROUS</span>
             <br />
             <span>SATISFIED GUESTS</span>
@@ -42,11 +42,11 @@ const AboutUs = () => {
               <img src={sec} alt="second" />
             </div>
             <div className="about-textpart">
-              <p className="about-textpart-head" data-aos="fade-left">
+              <p className="about-textpart-head" data-aos="fade-up">
                 A PLACE WITH A LONG HISTORY AND A TEAM THAT IS MOTIVATED TO
                 ENSURE AN ENJOYABLE PRESENT AND FUTURE.
               </p>
-              <p className="about-textpart-disc" data-aos="fade-left">
+              <p className="about-textpart-disc" data-aos="fade-up">
                 The heart of the restaurant, the vaulted cellar, is the oldest
                 in the canton of Aargau. It was built in 1743, next to the Aare
                 as an important trade route. In 2008, Dini Hasani founded La

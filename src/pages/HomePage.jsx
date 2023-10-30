@@ -57,7 +57,7 @@ const HomePage = () => {
           </p>
         </div>
         <div className="home-imgtext">
-          <div className="textpart" data-aos="fade-right">
+          <div className="textpart" data-aos="fade-up">
             <p className="textpart-h1">WITH PASSION AND HEARTBLOOD</p>
             <p className="textpart-disc">
               Over 30 years we have been committed to providing all of our
@@ -72,10 +72,10 @@ const HomePage = () => {
           </div>
         </div>
         <div className="home-slider">
-          <p className="slider-headings" data-aos="fade-right">
+          <p className="slider-headings" data-aos="fade-up">
             A DREAM <br /> <span>FOR THE PALATE</span>
           </p>
-          <p className="slider-disc" data-aos="fade-left">
+          <p className="slider-disc" data-aos="fade-up">
             Get an insight into our exquisite range of dishes and
             <br /> our diverse range of quality wines.
           </p>
