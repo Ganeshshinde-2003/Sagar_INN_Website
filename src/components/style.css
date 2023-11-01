@@ -204,13 +204,18 @@ a {
     width: 100px;
     height: auto;
   }
-  .opening-headings {
+  .home-openings .opening-headings {
     top: 20%;
-    font-size: 40px;
+    font-size: 33px;
     width: 100%;
   }
-  .opening-time {
+  .home-openings .opening-time {
     top: 70%;
-    font-size: 17px;
+    font-size: 15px;
+    width: 100%;
+  }
+  .footer-headings {
+    padding: 10px 10px;
+    font-size: 10px;
   }
 }
