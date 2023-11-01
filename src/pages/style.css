@@ -333,4 +333,8 @@
     word-spacing: 0;
     font-size: 15px;
   }
+  .home-firstimage img {
+    height: 500px;
+    object-fit: cover;
+  }
 }
