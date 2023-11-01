@@ -13,7 +13,7 @@ const Footer = () => {
   return (
     <>
       <div className="home-logoimage">
-        <img data-aos="zoom-in" src={logo} alt="logo" />
+        <img data-aos="zoom-in" src={logo} alt="logo" className="bottom-logo" />
       </div>
       <div className="home-openings" data-aos="fade-up">
         <img src={sixth} alt="sixth" />
@@ -21,10 +21,13 @@ const Footer = () => {
           WE ARE LOOKING FORWARD TO YOUR VISIT!
         </p>
         <p className="opening-time">
-          OPENING HOURS <br /> <br /> Monday : ClosedTuesday - Friday : 11:00
-          a.m. - 2:00 p.m., 5:30 p.m. - 11:30 p.m.
-          <br /> <br /> Saturday : 5:30 p.m. - 11:30 p.m.Sunday : 11:00 a.m. -
-          2:00 p.m., 5:30 p.m. - 10:00 p.m
+          OPENING HOURS <br /> <br /> Monday : ClosedTuesday - <br />
+          Friday : 11:00 a.m. - 2:00 p.m.,
+          <br /> 5:30 p.m. - 11:30 p.m.
+          <br /> <br /> Saturday : 5:30 p.m. - 11:30 p.m.
+          <br />
+          Sunday : 11:00 a.m. - 2:00 p.m.,
+          <br /> 5:30 p.m. - 10:00 p.m
         </p>
       </div>
       <div className="footer-container">

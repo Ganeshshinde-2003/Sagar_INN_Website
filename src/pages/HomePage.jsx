@@ -37,7 +37,7 @@ const HomePage = () => {
         <div className="home-greenback">
           <img src={sec} alt="second" />
           <p data-aos="fade-up" className="home-sec-text">
-            To make goodness more genuine and happiness purer". Sagar INN wants
+            To make goodness more genuine and happiness purer. Sagar INN wants
             to bring consumers not just delicious food and a quality
             environment, but a lifestyle that combines companionship, growth and
             happiness.

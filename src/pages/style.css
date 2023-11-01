@@ -239,3 +239,49 @@
   word-spacing: 5px;
   letter-spacing: 1px;
 }
+
+@media (max-width: 500px) {
+  .home-firstimage p {
+    font-size: 45px;
+  }
+  .home-greenback img {
+    width: 200px;
+  }
+  .home-sec-text {
+    padding: 30px 10px;
+    font-size: 15px;
+  }
+  .home-imgtext {
+    flex-direction: column-reverse;
+    margin-bottom: 30px;
+  }
+  .home-imgtext div {
+    width: 100%;
+  }
+  .textpart {
+    gap: 5px;
+    padding: 0 10px;
+  }
+  .textpart-h1 {
+    font-size: 40px;
+  }
+  .textpart-disc {
+    font-size: 15px;
+    line-height: 30px;
+  }
+  .home-slider {
+    padding: 30px 10px;
+    gap: 0;
+  }
+  .slider-headings {
+    font-size: 27px;
+    word-spacing: 5px;
+  }
+  .slider-disc {
+    font-size: 14px;
+  }
+  .home-slider-image {
+    width: 200px;
+    top: 25%;
+  }
+}
