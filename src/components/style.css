@@ -218,4 +218,8 @@ a {
     padding: 10px 10px;
     font-size: 10px;
   }
+  .navbar-home a,
+  .navbar-reservation a {
+    font-size: 17px;
+  }
 }
