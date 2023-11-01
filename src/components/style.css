@@ -185,7 +185,7 @@ a {
     width: 100%;
   }
   .imageslider-container .imageslider-img img {
-    height: auto;
+    height: 400px;
   }
   .imageslider-head {
     font-size: 32px;
